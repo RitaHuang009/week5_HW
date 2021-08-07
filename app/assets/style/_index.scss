@@ -1,0 +1,102 @@
+.no-gutters{
+    margin-right: 0;
+} 
+
+.logo{
+    & a{
+        background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg) no-repeat;
+        height: 40px;
+        display: block;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.nav{
+    padding: 40px 0 32px 32px;
+    min-width: 296px;
+    min-height: 100vh;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+.nav-item .active ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    margin-top: -2px;
+    width: 4px;
+    height: 30px;
+    border-left: 4px solid #198754;
+}
+
+.menu-user {
+    & a{
+    font-size: 14px;
+    }
+    & img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.main {
+    .fs-7 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+	.header{
+        padding: 32px 32px 18px 32px; 
+    }
+    .list-group{
+        border-radius: 0;
+        & .active{
+            background-color: #F8F9FA;
+            border: 1px solid #CED4DA ;
+            color: #212529;
+        }
+    }
+    .card{
+        border-radius: 0;
+    }
+    .card-body{
+        & img{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        .btn{
+            width: 35%;
+            border: 1px solid #CED4DA;
+            border-radius: 2px;
+            padding: 10px 4px 10px 3px;
+        }
+        .card-text{
+            font-size: 14px;
+            line-height: 24px;
+            span{
+                color: #198754;
+                background-color: #F8F9FA;
+            }
+        }
+    }
+    .assign-footer{
+        .btn{
+            border-radius: 2px;
+            padding: 10px 20px;
+        }
+        ul{
+            margin: 0;
+        }
+        .page-icon li a:hover{
+            color: #198754;
+        }
+
+    }
+    
+}
+
